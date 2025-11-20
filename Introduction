@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jawad Ahmed - Portfolio</title>
+    <style>
+        /* Reset default margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f8;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #0077b6;
+            margin-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            color: #023e8a;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.8rem;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #caf0f8;
+            color: #0077b6;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: #0077b6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Jawad Ahmed</h1>
+        <p>Hello! I am a Computer Science student currently exploring the world of programming and software development. I have experience in C++, HTML, and many more technologies. I love building projects and learning new skills every day.</p>
+        
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">C++</div>
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">Git & GitHub</div>
+        </div>
+
+        <h2>About Me</h2>
+        <p>I am passionate about programming and problem-solving. Currently, I am focusing on web development and software projects to strengthen my skills and gain practical experience.</p>
+
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me via <a href="mailto:jawadkhosa76@example.com">email</a> or connect with me on <a href="https://github.com/Jawadahmed" target="_blank">GitHub</a>.</p>
+
+        <footer>
+            &copy; 2025 Jawad Ahmed. All rights reserved.
+        </footer>
+    </div>
+</body>
+</html>
